@@ -14,7 +14,7 @@ pipeline {
         
         EMAIL_SUBJECT_FAILURE =  "Status: 'FAILURE' -Job \'${env.JOB_NAME}:${env.BUILD_NUMBER}\'"
         
-        EMAIL_RECEPIENT = 'vinge1718@gmail.com' 
+        EMAIL_RECEPIENT = '2ad1c0acfd-e28b3a@inbox.mailtrap.io' 
         
     }
     tools{
