@@ -23,7 +23,7 @@ pipeline {
     stages {
         stage('clone repository') {
             steps{
-                git 'https://github.com/Vinge1718/java-todo-jenkins'
+                git 'https://github.com/Ammly/java-todo-jenkins'
             }
         }
         stage ('Build project') {
